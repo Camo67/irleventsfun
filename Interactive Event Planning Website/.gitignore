@@ -1,0 +1,46 @@
+# WordPress specific
+wp-config-local.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/plugins/
+wp-content/mu-plugins/
+wp-content/languages/
+wp-content/upgrade/
+
+# WordPress core (if you want to exclude it)
+/wordpress/
+wp-admin/
+wp-includes/
+
+# Security files
+.htaccess
+sitemap.xml
+sitemap.xml.gz
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+error_log
+access_log
+
+# Temporary files
+tmp/
+temp/
